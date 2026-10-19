@@ -140,19 +140,6 @@ body {
     border-radius: 20px;
     font-size: 12.5px;
     font-weight: 500;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    outline: none;
-}
-
-.skill-badge:hover {
-    border-color: #38bdf8;
-    background-color: #1e293b;
-    transform: translateY(-2px);
-}
-
-.skill-badge:active {
-    transform: translateY(0);
 }
 
 @media screen and (min-width: 680px) {
@@ -201,75 +188,4 @@ body {
     .bio-text {
         font-size: 15px;
     }
-}
-
-.btn-tema {
-    background: transparent;
-    border: 1px solid #38bdf8;
-    color: #38bdf8;
-    padding: 6px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: all 0.3s ease;
-}
-
-.btn-tema:hover {
-    background: #38bdf8;
-    color: #0b1329;
-}
-
-body.light-mode {
-    background-color: #f8fafc;
-    color: #0f172a;
-}
-
-body.light-mode .profile-card {
-    background-color: #ffffff;
-    border-color: #cbd5e1;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-}
-
-body.light-mode .student-name {
-    color: #0f172a;
-}
-
-body.light-mode .card-aside {
-    border-color: #cbd5e1;
-}
-
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.modal-overlay.show {
-    display: flex;
-}
-
-.modal-box {
-    background: #1e293b;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-}
-
-.btn-tutup {
-    margin-top: 20px;
-    background: #ef4444;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 6px;
-    cursor: pointer;
 }
